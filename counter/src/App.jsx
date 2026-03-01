@@ -11,13 +11,12 @@ function App() {
 
   // adding the value
   const addValue=()=>{
-    
+
     if(count<20){
       count=count+1;
       setCounter(count);
+      
     }
-
-    
     // console.log("adding the value" ,count);
   }
 
